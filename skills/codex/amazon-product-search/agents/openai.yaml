@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon Product Search"
+  short_description: "Find and evaluate verified Amazon listings"
+  default_prompt: "Use $amazon-product-search to compare the strongest Amazon listings for this product."

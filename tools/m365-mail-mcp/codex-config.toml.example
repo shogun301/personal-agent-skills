@@ -1,0 +1,7 @@
+[mcp_servers.m365-mail]
+command = "C:/path/to/python.exe"
+args = ["C:/path/to/personal-agent-skills/tools/m365-mail-mcp/m365_mail_mcp.py"]
+
+# Tenant-specific values belong only in your local config:
+env = { M365_CLIENT_ID = "<your-public-client-app-id>", M365_TENANT_ID = "organizations" }
+# Optional: M365_LOGIN_HINT = "you@example.com", M365_CACHE_PATH = "C:/private/state/token_cache.json"
